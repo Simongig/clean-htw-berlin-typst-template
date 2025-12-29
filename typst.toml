@@ -2,15 +2,16 @@
 name = "clean-dhbw"
 version = "0.3.1"
 entrypoint = "lib.typ"
-authors = ["Roland Schätzle <@roland-KA>"]
+authors = [ "Roland Schätzle <@roland-KA>" ]
 license = "MIT"
-description = "A Typst Template for DHBW"
+description = "A Typst Template for HTW Berlin"
 repository = "https://github.com/roland-KA/clean-dhbw-typst-template"
-keywords = ["dhbw", "thesis"]
-categories = ["paper", "thesis", "report"]
-exclude = ["template/main.pdf"]
+keywords = [ "dhbw", "thesis" ]
+categories = [ "paper", "thesis", "report" ]
+exclude = [ "template/main.pdf" ]
+disciplines = [ ]
 
 [template]
 path = "template"
 entrypoint = "main.typ"
-thumbnail = "thumbnail.png"
+thumbnail = ""

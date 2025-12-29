@@ -1,4 +1,4 @@
-#import "@preview/clean-dhbw:0.3.1": *
+#import "@local/clean-dhbw:0.3.1": *
 #import "glossary.typ": glossary-entries
 
 #show: clean-dhbw.with(
@@ -11,16 +11,16 @@
     //   (name: "ABC S.L.", post-code: "08005", city: "Barcelona", country: "Spain")
     // )),
   ),
-  type-of-thesis: "Bachelorarbeit",
+  type-of-thesis: "Masterarbeit",
   at-university: false, // if true the company name on the title page and the confidentiality statement are hidden
   bibliography: bibliography("sources.bib"),
   date: datetime.today(),
   glossary: glossary-entries, // displays the glossary terms defined in "glossary.typ"
   language: "de", // en, de
   supervisor: (company: "John Appleseed", university: "Prof. Dr. Daniel Düsentrieb"),
-  university: "Duale Hochschule Baden-Württemberg",
-  university-location: "Karlsruhe",
-  university-short: "DHBW",
+  university: "Hochschule für Technik und Wirtschaft",
+  university-location: "Berlin",
+  university-short: "HTW Berlin",
   // for more options check the package documentation (https://typst.app/universe/package/clean-dhbw)
 )
 

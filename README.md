@@ -1,35 +1,6 @@
-# Clean DHBW
+# Template
 
-A (modernized) [Typst](https://typst.app/) template for DHBW documents like Bachelor theses, "Studienarbeiten", project documentation etc. It is the official Typst template for Computer Science at DHBW Karlsruhe.
-
-You can see an example of how the template looks in this [PDF file](https://github.com/roland-KA/clean-dhbw-typst-template/blob/main/template/main.pdf).
-
-## Introduction and Motivation
-
-In my experience as an end-user (i.e. reader) of documents like Bachelor theses and similar works which are currently produced at DHBW, there is room for improvement with respect to their usability.  There exists a recommendation at DHBW on how to structure and design such documents. I have the impression that some of the usability issues I identified are rooted directly within these recommendations, but others stem from the fact that some recommendations are just not thoroughly followed.
-
-In order to give an example on how an improved document structure and layout could look like, I have created the present "*Clean DHBW Typst Template*". In the meantime it is the official Typst template for Computer Science at DHBW Karlsruhe. But of course anyone interested is welcome to use it too.
-
-Of course such a concept is always a bit biased in some way. Therefore I explain the whys and hows below and I'm looking forward to the discussions it will provoke 😃. The name has been chosen in the sense "clean" is used in Software Engineering in terms like *clean architecture* or *clean code*, where it describes concepts and structures which are easy to understand, to use und to maintain. Furthermore they have a clear separation of concerns and responsibilities – for the case at hand that means: the template defines the typography, whereas the author is responsible for the contents.
-
-There exists already a Typst template for these sorts of documents: It's the ["supercharged-dhbw"-template](https://github.com/DannySeidel/typst-dhbw-template) by Danny Seidel. It is a great piece of work with a lot of functionality covering a broad variety of use cases. But with respect to structure and layout, it implements exactly the above criticized state (which is without doubt what many people want or maybe have to use). I discussed with Danny on how to realize further development. We agreed to keep `supercharged-dhbw` more or less as-is in order to reflect current state and needs and in consequence to build this new template as a fork of his work. This gave me also  more freedom to go new ways.
-
-For those interested, further and more detailed explanations about the design of the "*Clean DHBW Typst Template*" can be found here:
-- [Assumptions](https://github.com/roland-KA/clean-dhbw-typst-template/blob/main/docs/assumptions.md) made for the development
-- [Usability issues](https://github.com/roland-KA/clean-dhbw-typst-template/blob/main/docs/usability-issues.md) mentioned above in detail
-- [Explanation of the new document structure and layout](https://github.com/roland-KA/clean-dhbw-typst-template/blob/main/docs/design-explained.md)
-
-## Usage
-
-You can use this template in the Typst web app by clicking "Start from template" on the dashboard and searching for `clean-dhbw`.
-
-Alternatively (if you use Typst on your local computer), you can use the CLI to kick this project off using the command
-
-```shell
-typst init @preview/clean-dhbw MyFancyThesis
-```
-
-Typst will create a new directory (`MyFancyThesis` in this example) with all the files needed to get you started.
+Based on Clean DHBW Template you can find [here](https://github.com/roland-KA/clean-dhbw-typst-template/blob/main/template/main.pdf).
 
 ## Support
 
