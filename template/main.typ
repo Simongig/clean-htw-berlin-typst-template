@@ -1,4 +1,4 @@
-#import "@local/clean-dhbw:0.3.1": *
+#import "@local/clean-dhbw:0.3.1": * 
 #import "glossary.typ": glossary-entries
 
 #show: clean-dhbw.with(
