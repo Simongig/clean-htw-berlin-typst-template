@@ -14,6 +14,7 @@
   title: none,
   authors: (:),
   language: none,
+  titlepage_lang: none,
   at-university: none,
   confidentiality-marker: (display: false),
   type-of-thesis: none,
@@ -27,6 +28,7 @@
   declaration-of-authorship-content: none,
   titlepage-content: none,
   university: none,
+  department: none,
   university-location: none,
   university-short: none,
   city: none,
@@ -91,7 +93,7 @@
   let in-body = state("in-body", true)                  // to control heading formatting in/outside of body
 
   // customize look of figure
-  set figure.caption(separator: [ --- ], position: bottom)
+  set figure.caption(separator: [: ], position: bottom, )
 
   // math numbering
   set math.equation(numbering: math-numbering)
@@ -105,9 +107,6 @@
     register-glossary(glossary)
   }
 
-  // show links in dark blue
-  show link: set text(fill: blue.darken(40%))
-
   // ========== TITLEPAGE ========================================
 
   if (titlepage-content != none) {
@@ -117,7 +116,7 @@
       authors,
       date,
       heading-font,
-      language,
+      titlepage_lang,
       logo-left,
       logo-right,
       many-authors,
@@ -125,6 +124,7 @@
       title,
       type-of-thesis,
       university,
+      department,
       university-location,
       at-university,
       date-format,
@@ -225,7 +225,7 @@
     outline(
       title: TABLE_OF_CONTENTS.at(language),
       indent: auto,
-      depth: 3,
+      depth: 5,
     )
   }
 
@@ -272,7 +272,7 @@
 
   show heading.where(level: 2): it => {v(16pt) + text(size: h2-size, it)}
   show heading.where(level: 3): it => {v(16pt) + text(size: h3-size, it)}
-  show heading.where(level: 4): it => {v(16pt) + smallcaps(text(size: h4-size, weight: "semibold", it.body))}
+  show heading.where(level: 4): it => {v(16pt) + text(size: h4-size, it)}
 
  // ---------- Body Text ---------------------------------------
 

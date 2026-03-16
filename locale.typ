@@ -9,8 +9,8 @@
 )
 
 #let TITLEPAGE_STUDENT_ID = (
-  "de": "Matrikelnummer, Kurs:",
-  "en": "Student ID, Course:",
+  "de": "Matrikelnummer:",
+  "en": "Student ID:",
 )
 
 #let TITLEPAGE_COMPANY = (
@@ -19,18 +19,23 @@
 )
 
 #let TITLEPAGE_COMPANY_SUPERVISOR = (
-  "de": "Betreuer im Unternehmen:",
-  "en": "Supervisor in the Company:",
+  "de": "2. Prüfer:",
+  "en": "2nd Examiner:",
 )
 
 #let TITLEPAGE_SUPERVISOR = (
-  "de": "Betreuer an der ",
-  "en": "Supervisor at ",
+  "de": "1. Prüfer:",
+  "en": "1st Examiner:",
 )
 
 #let DECLARATION_OF_AUTHORSHIP_TITLE = (
   "de": "Selbstständigkeitserklärung",
   "en": "Declaration of Authorship",
+)
+
+#let AUTHOR_PRE = (
+  "de": "Eingereicht von",
+  "en": "submitted by"
 )
 
 #let DECLARATION_OF_AUTHORSHIP_SECTION_A_SINGLE = "Gemäß Ziffer 1.1.13 der Anlage 1 zu §§ 3, 4 und 5 der Studien- und Prüfungsordnung für die Bachelorstudiengänge im Studienbereich Technik der Dualen Hochschule Baden- Württemberg vom 29.09.2017. Ich versichere hiermit, dass ich meine Arbeit mit dem Thema:"
