@@ -4,7 +4,7 @@
 #show: clean-dhbw.with(
   title: "Evaluation von Typst zur Erstellung einer Abschlussarbeit",
   authors: (
-    (name: "Max Mustermann", student-id: "7654321", course: "TINF22B2", course-of-studies: "Informatik", company: (
+    (name: "Max Mustermann", student-id: "7654321", course: "", course-of-studies: "Informatik", company: (
       (name: "ABC GmbH", post-code: "76131", city: "Karlsruhe")
     )),
     // (name: "Juan Pérez", student-id: "1234567", course: "TIM21", course-of-studies: "Mobile Computer Science", company: (
@@ -17,7 +17,10 @@
   date: datetime.today(),
   glossary: glossary-entries, // displays the glossary terms defined in "glossary.typ"
   language: "de", // en, de
-  supervisor: (company: "John Appleseed", university: "Prof. Dr. Daniel Düsentrieb"),
+  // supervisor: (
+  //   first: "John Appleseed", 
+  //   second: "Prof. Dr. Daniel Düsentrieb"),
+  supervisor: (company: "Dr. med. Maximilian Schöls", university: "Prof. Dr.-Ing. Piotr Wojciech Dabrowski"), // if at-university == false
   university: "Hochschule für Technik und Wirtschaft",
   university-location: "Berlin",
   university-short: "HTW Berlin",

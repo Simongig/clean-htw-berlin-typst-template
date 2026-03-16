@@ -184,7 +184,7 @@
       ..authors.map(author => align(
         center,
         {
-          text(weight: "bold",author.name)
+          text(weight: "bold", author.name)
         },
       )),
     )
@@ -198,6 +198,12 @@
         date.display(date-format)
       } else {
         date.at(0).display(date-format) + [ -- ] + date.at(1).display(date-format)
+      },
+
+      // university
+
+      ..if (at-university) {
+        
       },
     )
   )

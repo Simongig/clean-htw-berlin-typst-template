@@ -108,6 +108,12 @@
   }
 
   // ========== TITLEPAGE ========================================
+  
+  // ---------- Default ------
+
+  if (titlepage_lang == none) {
+    titlepage_lang = language
+  }
 
   if (titlepage-content != none) {
     titlepage-content
@@ -116,7 +122,7 @@
       authors,
       date,
       heading-font,
-      titlepage_lang,
+      language,
       logo-left,
       logo-right,
       many-authors,
@@ -135,6 +141,7 @@
     )
   }
   counter(page).update(1)  
+
 
   // ---------- Page Setup ---------------------------------------
 

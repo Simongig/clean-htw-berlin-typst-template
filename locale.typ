@@ -28,6 +28,16 @@
   "en": "1st Examiner:",
 )
 
+#let FIRST_SUPERVISOR = (
+  "de": "Erstbetreuer",
+  "en": "First Supervisor"
+)
+
+#let SECOND_SUPERVISOR = (
+  "de": "Zweitbetreuer",
+  "en": "First Supervisor"
+)
+
 #let DECLARATION_OF_AUTHORSHIP_TITLE = (
   "de": "Selbstständigkeitserklärung",
   "en": "Declaration of Authorship",
