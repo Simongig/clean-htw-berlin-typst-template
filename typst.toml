@@ -1,6 +1,6 @@
 [package]
-name = "clean-dhbw"
-version = "0.3.1"
+name = "clean-htw-berlin"
+version = "0.3.2"
 entrypoint = "lib.typ"
 authors = [ "Roland Schätzle <@roland-KA>" ]
 license = "MIT"
